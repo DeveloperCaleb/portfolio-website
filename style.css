@@ -1,0 +1,64 @@
+* {
+  box-sizing: border-box;
+}
+
+.wrapper {
+  width: 500px;
+  margin: auto;
+}
+
+/*changes font style for h1 & h2 to Comic Sans MS and uses serif as a fallback*/
+h1, h2 {
+  font-family: "Comic Sans MS", serif;
+}
+
+/*changes font style for p, ul, & ol to Comic Sans MS and uses serif as a fallback*/
+p, ul, ol {
+  font-family: -apple-system, sans-serif
+}
+
+/*specific class that will center text*/
+.text-centered {
+  text-align: center;
+}
+
+/*color used for the background of the body*/
+.lightdark {
+  background-color: #9accc865;
+}
+
+/*background color and border for header and footer*/
+.dark {
+  background-color: #a3a3a3;
+  color: rgba(0, 0, 0, 0.76);
+  border: #000000 solid 1px
+}
+
+/*adjusts the header's margin and rounds the corners. */
+.header {
+  margin-top: 20px;
+  margin-bottom: 20px; 
+  margin-left: 50px;
+  margin-right: 50px;
+  padding: -60px;
+  border-radius: 30px;
+}
+
+/*rounds corners*/
+.roundimage {
+  border-radius: 15px;
+}
+
+/*shapes rulers into diamonds*/
+hr {
+height: 10px;
+width: 10px;
+border: #000000 solid 5px;
+background-color: #000000;
+transform: rotate(45deg);
+}
+
+a:link {color: green} /*links will be green*/
+a:visited {color: rgb(211, 31, 211)} /*visited links will be magenta*/
+a:hover {color: rgb(5, 206, 5)} /*links hovered over will be light green*/
+a:active {color: purple} /*links when clicked will be purple*/
